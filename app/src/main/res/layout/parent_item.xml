@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/ivIconCategory"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="10"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvGName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="75"
+        android:text="Работа"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="15"
+        android:src="@drawable/arrowor_rigth" />
+</LinearLayout>
